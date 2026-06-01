@@ -20,6 +20,12 @@ En `index.php`, el array `$SISTEMAS` define cada tarjeta: nombre, descripción, 
 en desarrollo; en producción apuntar a los hosts/puertos de la LAN. Cuando migre Administración,
 poner `'estado' => 'activo'` y su URL.
 
+## Formatos alternativos (referencia)
+La puerta de entrada elegida es **Tarjetas premium** (`index.php`). En `demos/` quedan otros dos
+formatos que se evaluaron, por si se quieren retomar:
+- `demos/paneles.php` — paneles verticales inmersivos a pantalla completa (color por sistema, hover expande).
+- `demos/hub.php` — hub / consola central (logo + reloj + botones circulares).
+
 ## Tecnología
 PHP (solo para incrustar el config) + HTML/CSS · Bootstrap Icons + Inter por CDN · logo SVG inline.
 Diseño dark, tarjetas premium con acento por sistema, estado y hover.
