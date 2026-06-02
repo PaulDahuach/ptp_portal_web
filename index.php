@@ -14,7 +14,7 @@ $SISTEMAS = [
         'feats'  => ['Recepción y definición', 'Consultas x lote / sector', 'Muestras y presupuestos'],
         'icon'   => 'bi-gear-wide-connected',
         'color'  => '#0ea5e9',                 // sky
-        'url'    => 'http://localhost/produccion_ptp/',
+        'url'    => '/produccion_ptp/',        // relativa a la raíz: funciona en cualquier host (localhost o IP de la LAN)
         'estado' => 'activo',
     ],
     [
@@ -23,17 +23,17 @@ $SISTEMAS = [
         'feats'  => ['Login por operario + sector', 'Avance al próximo proceso', 'Despacho a Administración'],
         'icon'   => 'bi-people-fill',
         'color'  => '#10b981',                 // emerald
-        'url'    => 'http://localhost/supervisores_ptp/',
+        'url'    => '/supervisores_ptp/',      // relativa a la raíz: funciona en cualquier host
         'estado' => 'activo',
     ],
     [
         'nombre' => 'Administración',
-        'desc'   => 'Cuentas corrientes, facturación, comprobantes y AFIP.',
-        'feats'  => ['Cuentas y saldos', 'Facturación / NC / ND', 'Comprobantes electrónicos'],
+        'desc'   => 'Cuenta corriente, IVA, contabilidad, cheques y bancos.',
+        'feats'  => ['Saldos y resúmenes de cuenta', 'IVA Ventas / Compras', 'Mayor, Balance, Cheques'],
         'icon'   => 'bi-bar-chart-line-fill',
         'color'  => '#f59e0b',                 // amber
-        'url'    => '#',
-        'estado' => 'pronto',
+        'url'    => '/administracion_ptp/',    // relativa a la raíz: funciona en cualquier host (server-ptp / IP)
+        'estado' => 'activo',
     ],
 ];
 ?>
