@@ -32,8 +32,8 @@ $SISTEMAS = [
         'feats'  => ['Saldos y resúmenes de cuenta', 'IVA Ventas / Compras', 'Mayor, Balance, Cheques'],
         'icon'   => 'bi-bar-chart-line-fill',
         'color'  => '#f59e0b',                 // amber
-        'url'    => '/administracion_ptp/',    // relativa a la raíz: funciona en cualquier host (server-ptp / IP)
-        'estado' => 'activo',
+        'url'    => '#',
+        'estado' => 'pronto',                  // DESHABILITADO: la consulta muestra blanco/negro (dato sensible) — no exponer
     ],
 ];
 ?>
